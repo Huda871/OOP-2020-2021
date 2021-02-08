@@ -1,5 +1,7 @@
 package ie.tudublin;
 
+import javax.lang.model.util.ElementScanner14;
+
 import processing.core.PApplet;
 
 public class Loops extends PApplet {
@@ -31,8 +33,24 @@ public class Loops extends PApplet {
         switch (mode)
         {
             case 0:
-                ellipse(cx, cy, 100, 100);
+                 fill(50, 255, 255);
+                if (mouseX < cx)
+                {
+                    rect(0, 0, cx, height);
+                }
+                else
+                {
+                    rect(cx, 0, cx, height);
+                }    
                 break;
+            case 1:
+                fill(50, 255, 255);
+                if (mouseX < cx && mouseY < cy)
+                {
+                    rect(0, 0, cx, cy);    
+                }
+               //else if ()
+
         }
     }
 }
