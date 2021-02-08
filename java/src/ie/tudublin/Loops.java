@@ -33,6 +33,7 @@ public class Loops extends PApplet {
             case 0:
                 ellipse(cx, cy, 100, 100);
                 break;
+
                 
         }
     }
