@@ -93,11 +93,7 @@ public class Loops extends PApplet {
                 break;
             }
             case 4:
-<<<<<<< HEAD
-                stroke(255);
-=======
             {
->>>>>>> f26557d85a3ee2ea58ac9e822fe7d8a72fccee08
                 int numLines = 5;
                 float theta = TWO_PI / (float) numLines;
                 float radius = 100;
@@ -106,15 +102,6 @@ public class Loops extends PApplet {
                     float angle = theta * i;
                     float x = sin(angle) * radius;
                     float y = cos(angle) * radius;
-<<<<<<< HEAD
-                    line(cx, cy, cx + x, cy + y);
-                    
-
-                }
-                
-
-
-=======
                     line(cx, cy, cx + x, cy + y);                    
                 }
             }
@@ -179,7 +166,6 @@ public class Loops extends PApplet {
                     line(cx + x1, cy + y1, cx + x2, cy + y2);
                 }
             }
->>>>>>> f26557d85a3ee2ea58ac9e822fe7d8a72fccee08
             break;
         }
     }
